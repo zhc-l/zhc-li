@@ -1,0 +1,137 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.header{
+	height: 70px;
+	padding: 10px;
+	line-height: 50px;
+}
+.header .heade{
+	float: left;
+    width: 785px;
+}
+.header .heade>a{
+	float: left;
+	margin-right: 10px;
+	margin-left: 20px;
+	
+} 
+.header .heade ul{
+	margin: 0; 
+}
+
+.header .heade ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 0 10px;
+}
+.header .heade ul li a{
+	padding-bottom: 2px;
+	color: #000000;
+	text-decoration: none;
+}
+.header .heade ul li a:hover{
+	color: #f29600;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #f29600;
+}
+.head{
+	float: right;
+}
+.head .head1>li{
+	list-style: none;
+	display: inline-block;
+	
+}
+.head .head1>li>a{
+	color: #000000;
+	font-size: 13px;
+	text-decoration: none;
+}
+.head .head1 .head3>li>a{
+	color: #000000;
+	font-size: 13px;
+	text-decoration: none;
+}
+.head .head1{
+	overflow: hidden;
+	margin-bottom: 0;
+}
+.head .head1 .head3{
+	float: right;
+}
+.head .head1 .head3>li{
+	float: left;
+	list-style: none;
+}
+.head .head1 .head2{
+	position: absolute;
+	top: 70px;
+	right: 166px;
+	display: none;
+	z-index: 1;
+	background: #fff;
+}
+.head .head1>li:nth-child(1){
+	width: 73px;
+	text-align: right;
+	background: url(../img/小图标/xzyy.png) no-repeat 5px 18px;
+}
+.head .head1>li:nth-child(2){
+	padding-left: 7px;
+}
+.head .head1>li:nth-child(3){
+	width: 40px;
+	text-align: right;
+	background: url(../img/小图标/gwc.png) no-repeat 5px 18px;
+}
+.head .head1>li:nth-child(4){
+	padding:0 7px;
+}
+.head .head1 .head3>li:nth-child(1){
+	width: 30px;
+	height: 49.6px;
+	background: url(../img/小图标/rx.png) no-repeat 5px 18px;
+}
+.head .head1 .head3>li:nth-child(2){
+	padding-right: 7px;
+}
+.head .head1>li .head2 li{
+	font-size: 11px;
+	list-style: none;
+	width: 80px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #DDDDDD;
+}
+.head .head1>li:nth-child(1):hover{
+	background: url(../img/小图标/xzyy-h.png) no-repeat 5px 18px;
+}
+.head .head1>li:nth-child(1):hover a{
+	color: #f29600;
+}
+.head .head1>li:nth-child(1):hover .head2{
+	display: block;
+}
+.head .head1>li:nth-child(3):hover a{
+	color: #f29600;
+}
+.head .head1>li:nth-child(3):hover{
+	background: url(../img/小图标/gwc-h.png) no-repeat 5px 18px;
+}
+.head .head1 .head3>li:nth-child(1):hover{
+	background: url(../img/小图标/rx-h.png) no-repeat 5px 18px;
+}
+.head .head1 .head3>li:nth-child(2) a:hover{
+	color: #f29600;
+}
+.head .head1 .head3>li:nth-child(3) a:hover{
+	color: #f29600;
+}
+.head .head1>li:nth-child(1) .head2 li:hover{
+	color: #f29600;
+}
+/*轮播*/
